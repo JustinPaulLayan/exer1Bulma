@@ -1,0 +1,57 @@
+.footer-background{
+    background: #222327;
+}
+
+.footer {
+    max-width: 950px;
+    background: #222327;
+    margin: auto;
+    padding-top: 30px;
+    @media only screen and (min-width: 768px) {
+        display: flex;
+    }
+    > div {
+        padding: 10px;
+        flex: 1;
+    }
+ }
+
+ .footer-icon-background {
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.footer-social-class {
+    height: 30px;
+    width: 30px;
+    margin-right: 5px;
+    border-radius: 50%;
+    background-color:#39383d;
+    border-color:#39383d;
+    i {
+        color: #212226;
+    }
+}
+
+.footer-divider {
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray; 
+    margin-bottom:15px; 
+    margin-top:15px;
+}
+
+.footer-useful-links {
+    margin-bottom: -17px;
+}
+
+.footer-blogdate-color{
+    color: #19a08b;
+}
+
+.footer-input{
+    background-color: #3a393e;
+    border-color:#3a393e;
+    color: aliceblue;
+}
