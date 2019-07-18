@@ -26,6 +26,11 @@ module.exports = {
       template: Path.resolve(__dirname, '../src/index.html'),
       minify
     }),
+    new HtmlWebpackPlugin({
+      filename: 'login.html',
+      template: Path.resolve(__dirname, '../src/login.html'),
+      minify
+    })
   ],
   resolve: {
     alias: {

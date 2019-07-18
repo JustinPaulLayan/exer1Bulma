@@ -1,0 +1,55 @@
+.login-banner {
+    background: url('https://marketingland.com/wp-content/ml-loads/2014/07/folders-files-resources-shutterstock.jpg')center center;
+    background-size:cover;
+    input {
+        &::placeholder{
+            font-size: 16px;
+            color: #9b9b9b;
+        }   
+    }
+}
+
+.login-cliparts{
+    width: 50px;
+    height: 50spx;
+}
+
+.hr-text {
+    line-height: 1em;
+    position: relative;
+    outline: 0;
+    border: 0;
+    color: darkgray;
+    text-align: center;
+    height: 1.5em;
+    opacity: 1;
+    font-weight: bold;
+    &:before {
+      content: '';
+      // use the linear-gradient for the fading effect
+      // use a solid background color for a solid bar
+      background: linear-gradient(to right, transparent, darkgray, transparent);
+      position: absolute;
+      left: 0;
+      top: 50%;
+      width: 100%;
+      height: 1px;
+    }
+    &:after {
+      content: attr(data-content);
+      position: relative;
+      display: inline-block;
+      color: #363434;
+  
+      padding: 0 .5em;
+      line-height: 1.5em;
+      // this is really the only tricky part, you need to specify the background color of the container element...
+      color: #363434;
+      background-color: white;
+    }
+}
+
+.login-social-btn{
+    border-radius: 0px;
+}
+

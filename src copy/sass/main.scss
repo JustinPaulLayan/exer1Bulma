@@ -6,8 +6,8 @@ $fa-font-path: "~font-awesome/fonts";
 @import "~font-awesome/scss/font-awesome";
 
 // color pallete
-$primary: #49c6f4;
-$secondary: #7a62d4;
+$primary: #664a7f;
+$secondary: #274bf8;
 $info: #274bf8;
 $primary-theme-color: #80e5ff;
 $secondary-navbar-color: #131e34;
@@ -20,5 +20,5 @@ $tertiary-color: #8648cd;
 @import "./components/landingPage";
 @import "./components/footer";
 @import "./components/utilities";
-@import "./components/login";
+
 
