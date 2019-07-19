@@ -1,4 +1,4 @@
-$spaceamounts: (0, 5, 10, 15, 18, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90, 95, 100); 
+$spaceamounts: (0, 5, 8, 10, 15, 18, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90, 95, 100); 
 $sides: (top, bottom, left, right);
 
 @each $space in $spaceamounts {
@@ -10,5 +10,127 @@ $sides: (top, bottom, left, right);
     .p-#{str-slice($side, 0, 1)}-#{$space} {
       padding-#{$side}: #{$space}px !important;
     }
+  }
+}
+
+.flex-right {
+  justify-content: flex-end; 
+}
+
+.flex-left {
+  justify-content: flex-start;
+}
+
+.custom-button {
+  border: none;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  cursor: pointer;
+  width: 100%;
+}
+.fb-background-color {
+  background-color: $facebook;
+}
+.google-background-color {
+  background-color: $google-plus;
+}
+.custom-social-icon {
+  font-size: 10px;
+  border-right: 1px solid rgb(196, 186, 186);
+  margin-right: 10px;
+  padding: 14px 10px 12px 11px;
+  align-content: left;
+  width: 30px;
+  color: #fff;
+  text-align: center;
+}
+
+.container {
+  max-width: 770px;
+}
+
+.fa.fa-calendar {
+  margin-top: -2px;
+  color: #00d1b2;
+}
+
+
+
+
+.content {
+  display: none;
+}
+
+.content.active {
+  display: block;
+}
+
+.unshadow {
+  box-shadow: 0 0px 0px rgba(0,0,0,0), 0 0px 0px rgba(0,0,0,0);
+}
+
+#card-collapse {
+  .card{
+    .card-title {
+      margin-left: 15px;
+      margin-top: 8px;
+    }
+
+    a:hover{
+      background-color: $tertiary;
+    }
+    
+    .collapse-button {
+      width: 30px;
+      height: 30px;
+      border-radius: 100%;
+      margin-bottom:30px;
+      background-color:lightgrey; 
+    }
+
+    .is-open {
+      width: 40px;
+      height: 60px;
+      border-radius: 100%;
+      margin-bottom:30px;
+      background-color:$tertiary; 
+    }
+
+    .content {
+      margin-left: 30px;
+      padding-top: 0px;
+      margin-top: -20px;
+    }
+  }
+}
+
+.btn-form {
+  width: 100px;
+  height: 30px;
+  color: whitesmoke;
+  font-size: 10px;
+  background-color: $primary;
+  font-weight: bold;
+}
+
+.form-checkbox {
+  font-size: 11px;
+  .checkbox-text {
+    margin-left: 5px;
+    margin-bottom: 10px; 
+  }
+  .link {
+    color: $primary;
+    margin-left: 20px;
+  }
+}
+
+.form-footer {
+  padding-top: 10px;
+  font-size: 9px;
+  a {
+    color: $primary
   }
 }

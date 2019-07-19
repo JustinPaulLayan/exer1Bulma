@@ -30,6 +30,11 @@ module.exports = {
       filename: 'login.html',
       template: Path.resolve(__dirname, '../src/login.html'),
       minify
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'register.html',
+      template: Path.resolve(__dirname, '../src/register.html'),
+      minify
     })
   ],
   resolve: {

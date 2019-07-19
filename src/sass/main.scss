@@ -8,15 +8,15 @@ $fa-font-path: "~font-awesome/fonts";
 // color pallete
 $primary: #49c6f4;
 $secondary: #7a62d4;
+$tertiary: #1ea69a;
 $info: #274bf8;
 $primary-theme-color: #80e5ff;
 $secondary-navbar-color: #131e34;
-$tertiary-color: #8648cd;
+$facebook: #46639d;
+$google-plus:#d6492e;
 
 @import "~bulma/bulma";
-@import "./components/primaryHeader";
-@import "./components/secondaryHeader";
-@import "./components/banner";
+@import "./components/header";
 @import "./components/landingPage";
 @import "./components/footer";
 @import "./components/utilities";

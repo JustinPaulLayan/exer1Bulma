@@ -5,11 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Authordesk</title>
+    <title>Authordesk | Home</title>
 </head>
 
 <body>
-    <nav class="navbar" role="navigation" aria-label="main navigation">
+    <nav class="navbar" id="upper-header" role="navigation" aria-label="main navigation">
         <div class="container">
             <div class="navbar-start is-pulled-left">
                 <a class="navbar-item">
@@ -20,14 +20,14 @@
                 <div class="navbar-item">
                     <div class="buttons">
                             <a href="login.html" class="button is-rounded btn-width btn-login">Login</a>
-                            <a class="button is-rounded btn-width">SignUp</a>
+                            <a href="register.html" class="button is-rounded btn-width">SignUp</a>
                     </div>
                 </div>
             </div>
         </div>
     </nav>
     
-    <nav class="navbar secondary-navbar" role="navigation" aria-label="main navigation">
+    <nav class="navbar" id="lower-header" role="navigation" aria-label="main navigation">
         <div class="container">
             <div class="navbar-start">
                 <div id="navbarBasicExample" class="navbar-menu p-t-10 p-b-10">
@@ -63,54 +63,56 @@
             </div>       
         </div>
     </nav>
-    
-    <div class="columns">
-        <div class="column left-side">
-            <div class="columns left-side flex-right">
-                <div class="column is-half">
-                    <section class="hero is-medium is-bold is-vcentered has-text-centered">
-                        <div class="hero-body">
-                            <div class="container">
-                                <h6 class="subtitle">
-                                    <span class="icon-background"><i class="fa fa-address-book icon-style"></i></span>
-                                </h6>
-                                <h2 class="subtitle">
-                                    Galactic Desktop
-                                </h2>
-                                <div class="field">
-                                    <p class="control has-icons-right">
-                                      <input class="input is-rounded" type="text" placeholder="Enter Your Topic Here">
-                                      <span class="icon is-small is-right has-text-grey-darker">
-                                        <i class="fa fa-search"></i>
-                                      </span>
-                                    </p>
+
+    <section id="banner">
+        <div class="columns">
+            <div class="column left-side">
+                <div class="columns left-side flex-right">
+                    <div class="column is-half">
+                        <section class="hero is-medium is-bold is-vcentered has-text-centered">
+                            <div class="hero-body">
+                                <div class="container">
+                                    <h6 class="subtitle">
+                                        <span class="icon-background"><i class="fa fa-address-book icon-style"></i></span>
+                                    </h6>
+                                    <h2 class="subtitle">
+                                        Galactic Desktop
+                                    </h2>
+                                    <div class="field">
+                                        <p class="control has-icons-right">
+                                        <input class="input is-rounded" type="text" placeholder="Enter Your Topic Here">
+                                        <span class="icon is-small is-right has-text-grey-darker">
+                                            <i class="fa fa-search"></i>
+                                        </span>
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </section>
+                        </section>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="column">
-            <div class="columns right-side flex-left">
-                <div class="column is-half">
-                    <section class="hero is-medium is-bold is-vcentered has-text-centered">
-                        <div class="hero-body">
-                            <div class="container">
-                                <h6 class="subtitle">
-                                    <span class="icon-background"><i class="fa fa-comments icon-style"></i></span>
-                                </h6>
-                                <h2 class="subtitle">
-                                    <b>Support Forum</b>
-                                </h2>
-                                <a class="button is-rounded" style="width:100%"><strong>View All Forums</strong></a>
+            <div class="column">
+                <div class="columns right-side flex-left">
+                    <div class="column is-half">
+                        <section class="hero is-medium is-bold is-vcentered has-text-centered">
+                            <div class="hero-body">
+                                <div class="container">
+                                    <h6 class="subtitle">
+                                        <span class="icon-background"><i class="fa fa-comments icon-style"></i></span>
+                                    </h6>
+                                    <h2 class="subtitle">
+                                        <b>Support Forum</b>
+                                    </h2>
+                                    <a class="button is-rounded" style="width:100%"><strong>View All Forums</strong></a>
+                                </div>
                             </div>
-                        </div>
-                `   </section>
+                    `   </section>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
     <section class="section">
         <div class="container">
@@ -122,19 +124,19 @@
                 </div>
             </div>
             <div class="columns is-centered p-t-20">
-                <div class="column is-one-quarter has-text-centered card-title">
+                <div class="column is-one-third has-text-centered card-title">
                     <img src="./img/demoInstallation.png" class="offers-image-section">
                     <h6 class="title is-size-6 m-t-20">Demo Installation</h6>
                     <p class="has-text-grey-dark offer-p">A wonderful serenety has taken possession of my entire soul, like these sweet morning of spring</p>
                     <a class="button is-rounded offers-btn-section"><b>Get Price</b></a>
                 </div>
-                <div class="column is-one-quarter has-text-centered card-title">
+                <div class="column is-one-third has-text-centered card-title">
                     <img src="./img/themeCustomizations.png" class="offers-image-section">
                     <h6 class="title is-size-6 m-t-20"">Theme Customization</h6>
                     <p class="has-text-grey-dark offer-p">A wonderful serenety has taken possession of my entire soul, like these sweet morning of spring</p>
                     <a class="button is-rounded offers-btn-section"><b>Get Price</b></a>
                 </div>
-                <div class="column is-one-quarter has-text-centered card-title">
+                <div class="column is-one-third has-text-centered card-title">
                     <img src="./img/migration.png" class="offers-image-section">
                     <h6 class="title is-size-6 m-t-20">Migration ang Optimization</h6>
                     <p class="has-text-grey-dark offer-p">A wonderful serenety has taken possession of my entire soul, like these sweet morning of spring</p>
@@ -154,7 +156,7 @@
                 </div>
             </div>
             <div class="columns is-centered p-t-20">
-                <div class="column is-one-quarter has-text-centered card-title">
+                <div class="column is-one-third has-text-centered card-title">
                     <figure class="image image is-4by3">
                         <img src="./img/themeCards1.png">
                         <a class="button is-rounded card-buttons">View Demo</a>
@@ -162,14 +164,14 @@
                     <h6 class="is-size-6 p-t-15"><b>Digital Product Marketplace</b></h6>
                     <p class="has-text-grey-dark offer-p"><b>Restored</b> - Wordpress Theme</p>
                 </div>
-                <div class="column is-one-quarter has-text-centered card-title">
+                <div class="column is-one-third has-text-centered card-title">
                     <figure class="image image is-4by3">
                         <img src="./img/themeCards2.png">
                     </figure>
                     <h6 class="is-size-6 p-t-15"><b>Online Examination System</b></h6>
                     <p class="has-text-grey-dark offer-p"><b>MenorahOES</b> - PHP Scripts</p>
                 </div>
-                <div class="column is-one-quarter has-text-centered card-title">
+                <div class="column is-one-third has-text-centered card-title">
                     <figure class="image image is-4by3">
                         <img src="./img/themeCards3.png">
                     </figure>
@@ -192,58 +194,104 @@
     </section>
     
     <section class="section">
-        <div class="columns p-t-100 p-b-70">
-            <div class="column">
-                <div class="columns flex-right">
-                    <div class="column is-two-thirds">
-                        <h5 class="title is-size-3">What Costumers Says</h5>
-                        <div class="card">
-                            <div class="card-content">
-                                <p class="title is-size-6 m-b-5"> 
-                                “Quality of theme”
-                                </p>
-                                <span class="icon is-small">
-                                    <i class="fa fa-star" style="color:yellow"></i>
-                                </span>
-                                <span class="icon is-small">
-                                    <i class="fa fa-star" style="color:yellow"></i>
-                                </span>
-                                <span class="icon is-small">
-                                    <i class="fa fa-star" style="color:yellow"></i>
-                                </span>
-                                <span class="icon is-small">
-                                    <i class="fa fa-star" style="color:yellow"></i>
-                                </span>
-                                <span class="icon is-small">
-                                    <i class="fa fa-star" style="color:yellow"></i>
-                                </span>
-                                <p class="is-italic is-size-7 m-t-5">"A collection of textile samples lay spread out on the table - samsa was a travelling salesman - and a picture that he had recently cut of an illustrated magazine ang housed in a nice, gilded frame"</p>
+        <div class="container">
+            <div class="columns p-t-100 p-b-70">
+                <div class="column">
+                    <div class="columns flex-right">
+                        <div class="column">
+                            <h5 class="title is-size-3">What Costumers Says</h5>
+                            <div class="card">
+                                <div class="card-content p-r-10 p-l-10">
+                                    <p class="title is-size-6 m-b-5"> 
+                                    “Quality of theme”
+                                    </p>
+                                    <span class="icon is-small">
+                                        <i class="fa fa-star" style="color:yellow"></i>
+                                    </span>
+                                    <span class="icon is-small">
+                                        <i class="fa fa-star" style="color:yellow"></i>
+                                    </span>
+                                    <span class="icon is-small">
+                                        <i class="fa fa-star" style="color:yellow"></i>
+                                    </span>
+                                    <span class="icon is-small">
+                                        <i class="fa fa-star" style="color:yellow"></i>
+                                    </span>
+                                    <span class="icon is-small">
+                                        <i class="fa fa-star" style="color:yellow"></i>
+                                    </span>
+                                    <p class="is-italic is-size-7 m-t-5">"A collection of textile samples lay spread out on the table - samsa was a travelling salesman - and a picture that he had recently cut of an illustrated magazine ang housed in a nice, gilded frame"</p>
+                                </div>
                             </div>
-                        </div>
-                        <div class="media p-t-15">
-                            <div class="media-left">
-                                <figure class="image is-64x64">
-                                    <img class="is-rounded" src="./img/defaultPhoto.png">
-                                </figure>
-                            </div>
-                            <div class="is-vcentered has-text-grey-dark has-text-justified p-t-18">
-                                <strong class="has-text-weight-bold">Desmond Eagle </strong>&nbsp- Avetech
+                            <div class="media p-t-15">
+                                <div class="media-left">
+                                    <figure class="image is-48x48">
+                                        <img class="is-rounded" src="./img/defaultPhoto.png">
+                                    </figure>
+                                </div>
+                                <div class="is-vcentered has-text-grey-dark has-text-justified p-t-18 is-size-7">
+                                    <strong class="has-text-weight-bold is-size-7">Desmond Eagle </strong>&nbsp- Avetech
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="column">
-                <div class="columns flex-left">
-                    <div class="column is-two-thirds">
-                        <h5 class="title is-size-3">Why Choose us</h5>
+                <div class="column">
+                    <div class="columns flex-left">
+                        <div class="column">
+                            <h5 class="title is-size-3">Why Choose us</h5>
+                            <div id="card-collapse">
+                                <div class="card unshadow">
+                                <div class="card-header unshadow">
+                                    <a data-href="#content-1" class="toggle button collapse-button"><i class="fa fa-caret-right icon-style is-size-7"></i></a>
+                                    <p class="is-size-7 has-text-weight-bold card-title">It showed a lady fitted out with a fur hat?</p>
+                                </div>
+                                <div class="card-content content unshadow is-size-7" id="content-1">
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis iure quis, cumque, vitae laborum adipisci itaque distinctio non ea sit culpa? Repudiandae minus velit eos voluptatibus ullam ea quaerat labore.
+                                </div>
+                                </div> 
+                            </div>
+                            <div id="card-collapse">
+                                <div class="card unshadow">
+                                <div class="card-header unshadow">
+                                    <a data-href="#content-2" class="toggle button collapse-button"><i class="fa fa-caret-right icon-style is-size-7"></i></a>
+                                    <p class="is-size-7 has-text-weight-bold card-title">Raising a heavy fur muff that covered the whole?</p>
+                                </div>
+                                <div class="card-content content unshadow is-size-7" id="content-2">
+                                    A collection textile samples lay spread out on the table - Samsa was a travelling salesman - ang above it there hung a picture that he had recently cut out of an illustrated magazine ang housed in a nice gilded frame
+                                </div>
+                                </div> 
+                            </div>
+                            <div id="card-collapse">
+                                <div class="card unshadow">
+                                <div class="card-header unshadow">
+                                    <a data-href="#content-3" class="toggle button collapse-button"><i class="fa fa-caret-right icon-style is-size-7"></i></a>
+                                    <p class="is-size-7 has-text-weight-bold card-title">It showed a lady fitted out with a fur hat</p>
+                                </div>
+                                <div class="card-content content unshadow is-size-7" id="content-3">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam voluptatum unde earum deleniti perferendis, asperiores suscipit consequatur iure obcaecati fuga dolorem ducimus natus molestiae odit illum provident omnis et velit.
+                                </div>
+                                </div> 
+                            </div>
+                            <div id="card-collapse">
+                                <div class="card unshadow">
+                                <div class="card-header unshadow">
+                                    <a data-href="#content-4" class="toggle button collapse-button"><i class="fa fa-caret-right icon-style is-size-7"></i></a>
+                                    <p class="is-size-7 has-text-weight-bold card-title">It showed a lady fitted out with a fur hat</p>
+                                </div>
+                                <div class="card-content content unshadow is-size-7" id="content-4">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius ullam, debitis vel fugiat aspernatur corporis eaque sequi. Ab, sint minima, ducimus velit dolorem quis dignissimos beatae vero repellendus inventore similique.
+                                </div>
+                                </div> 
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="footer-background">
+    <section class="footer-background" id="footer">
         <footer class="footer">
             <div>
                 <h6 class="title has-text-white is-size-6">
@@ -305,7 +353,7 @@
                 <div class="control has-icons-right">
                     <input class="input is-rounded footer-input" type="email" placeholder="Enter Your E-mail">
                     <span class="icon is-small is-right">
-                        <i class="fa fa-chevron-right has-text-grey-dark"></i>
+                        <i class="fa fa-chevron-right has-text-grey-light"></i>
                     </span>
                 </div>
             </div>

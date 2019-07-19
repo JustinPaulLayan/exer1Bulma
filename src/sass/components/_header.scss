@@ -1,0 +1,40 @@
+#upper-header {
+    .btn-login {
+        background-color: $primary;
+        width: 120px;
+    }
+
+    .button{
+        width: 120px;
+    }
+    
+    .title {
+        color: rgb(54, 52, 52)
+    }
+}
+
+#lower-header {
+    background-color: $secondary-navbar-color;
+    .items {
+        color: whitesmoke;
+        margin-top:0px;
+        margin-bottom:0px;
+        padding-top:0px;
+        padding-bottom:0px;
+        font-size:15px;
+    }
+    
+    .right-border {
+        border-right: 1px solid #313e57;
+    }
+
+    input{
+        background-color: $secondary-navbar-color;
+        border-color: $secondary-navbar-color;
+        width: 250px;
+    }
+        
+}
+
+
+
