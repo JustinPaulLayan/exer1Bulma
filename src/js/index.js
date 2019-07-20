@@ -7,7 +7,7 @@ document.addEventListener('click', function (event) {
     if (!event.target.classList.contains('toggle')) return;
     // Get the target content
     
-    let content = document.querySelector(event.target.getAttribute('data-href'));
+    let content = document.querySelector(event.target.getAttribute('href'));
     if (!content) return;
     
     // Prevent default link behavior
