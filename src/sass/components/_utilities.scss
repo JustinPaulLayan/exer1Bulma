@@ -1,4 +1,4 @@
-$spaceamounts: (0, 5, 8, 10, 15, 18, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90, 95, 100); 
+$spaceamounts: (0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 15, 18, 20, 25, 30, 35, 37, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90, 95, 100); 
 $sides: (top, bottom, left, right);
 
 @each $space in $spaceamounts {
@@ -11,6 +11,10 @@ $sides: (top, bottom, left, right);
       padding-#{$side}: #{$space}px !important;
     }
   }
+}
+
+.text-primary-color {
+  color: $primary;
 }
 
 .flex-right {
@@ -55,9 +59,6 @@ $sides: (top, bottom, left, right);
   margin-top: -2px;
   color: #00d1b2;
 }
-
-
-
 
 .content {
   display: none;
@@ -132,5 +133,19 @@ $sides: (top, bottom, left, right);
   font-size: 9px;
   a {
     color: $primary
+  }
+}
+
+.banner-input {
+  input {
+    height: 40px;
+    &::placeholder {
+        font-size: 15px;
+        color: #9b9b9b;
+        font-weight: bold;
+    }   
+  }
+  .icon{
+    margin-right: 15px
   }
 }

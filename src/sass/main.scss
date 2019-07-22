@@ -6,6 +6,7 @@ $fa-font-path: "~font-awesome/fonts";
 @import "~font-awesome/scss/font-awesome";
 
 // color pallete
+
 $primary: #49c6f4;
 $secondary: #7a62d4;
 $tertiary: #1ea69a;
@@ -14,6 +15,7 @@ $primary-theme-color: #80e5ff;
 $secondary-navbar-color: #131e34;
 $facebook: #46639d;
 $google-plus:#d6492e;
+$card-footer-border-top: 0px;
 
 @import "~bulma/bulma";
 @import "./components/header";
@@ -21,4 +23,5 @@ $google-plus:#d6492e;
 @import "./components/footer";
 @import "./components/utilities";
 @import "./components/login";
+@import "./components/knowledgebase";
 

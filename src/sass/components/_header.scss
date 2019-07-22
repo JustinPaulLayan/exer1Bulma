@@ -1,11 +1,16 @@
 #upper-header {
+    height: 70px;
     .btn-login {
         background-color: $primary;
         width: 120px;
+        color: whitesmoke;
     }
 
     .button{
-        width: 120px;
+        width: 80px;
+        height: 30px;
+        font-size: 11px;
+        font-weight: bold;
     }
     
     .title {
