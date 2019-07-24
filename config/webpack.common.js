@@ -45,6 +45,16 @@ module.exports = {
       filename: 'singleKnowledgeBase.html',
       template: Path.resolve(__dirname, '../src/singleKnowledgeBase.html'),
       minify
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'guide.html',
+      template: Path.resolve(__dirname, '../src/guide.html'),
+      minify
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'singleGuide.html',
+      template: Path.resolve(__dirname, '../src/singleGuide.html'),
+      minify
     })
   ],
   resolve: {
