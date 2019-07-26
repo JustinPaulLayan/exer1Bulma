@@ -6,9 +6,8 @@ $fa-font-path: "~font-awesome/fonts";
 @import "~font-awesome/scss/font-awesome";
 
 // color pallete
-
-$primary: #49c6f4;
-$secondary: #7a62d4;
+$primary: #f37e49;
+$secondary: #49c6f4;
 $tertiary: #1ea69a;
 $info: #274bf8;
 $primary-theme-color: #80e5ff;
@@ -16,8 +15,12 @@ $secondary-navbar-color: #131e34;
 $facebook: #46639d;
 $google-plus:#d6492e;
 $card-footer-border-top: 0px;
+$input-focus-border-color: $primary;
+$input-focus-box-shadow-size: 0 0 0 0.09em;
+$input-focus-box-shadow-color: $primary;
 
 @import "~bulma/bulma";
+@import "./components/banner";
 @import "./components/header";
 @import "./components/landingPage";
 @import "./components/footer";
@@ -25,4 +28,6 @@ $card-footer-border-top: 0px;
 @import "./components/login";
 @import "./components/knowledgebase";
 @import "./components/guide";
+@import "./components/blog";
+@import "./components/contact";
 

@@ -17,6 +17,10 @@ $sides: (top, bottom, left, right);
   color: $primary;
 }
 
+.text-secondary-color {
+  color: $secondary
+}
+
 .flex-right {
   justify-content: flex-end; 
 }
@@ -148,4 +152,44 @@ $sides: (top, bottom, left, right);
   .icon{
     margin-right: 15px
   }
+}
+
+.pagination {
+  a {
+      font-size: 9px;
+      padding-left: 7px;
+      color: black;
+      padding: 0px;
+      text-align: center;
+      font-weight: bold;
+  }
+  .pagination-link {
+      height: 30px;
+      width: 30px;
+      border-radius: 0px;
+      margin: 2px;
+      font-size: 9px;
+  }
+  .pagination-ellipsis {
+      margin: 2px;
+      padding: 0px;
+  }
+  .is-current {
+      background-color: $primary;
+      border-color: $primary
+  }
+}
+
+.card-list {
+  font-weight: bold;
+  a {
+      color: #4b4b4b;
+  }
+  li {
+      margin-bottom: 13px;
+  }
+}
+
+.nr {
+  border-radius: 0px;
 }

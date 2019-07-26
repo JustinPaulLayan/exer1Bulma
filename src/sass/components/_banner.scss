@@ -1,0 +1,48 @@
+#banner{
+    .left-side {
+        .icon-background {
+            background-color:#348aab
+        }
+        background-color: $primary-theme-color;
+    }
+    
+    .right-side {
+        .icon-background {
+            background-color:#5f328f
+        }
+        background-color: #8648cd;
+    }
+    
+    .icon-background {
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        display: inline-block;
+    }
+    
+    .subtitle {
+        color: white;
+    }
+    
+    .icon-style {
+        padding-top:15px; 
+        opacity: 1;
+        color: white;
+    }
+    .input {
+        &::placeholder{
+            color: #66757F;
+            font-size: 13px;
+        }
+    }
+}
+
+#banner-2 {
+    background: url('https://drive.google.com/uc?id=1lfEEGQLrGtaSLDv_aof0ikbKv8yla2Cm')center center;
+    background-size:cover;
+    input {
+        &:hover{
+            background-color: red;
+        }
+    }
+}

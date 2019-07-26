@@ -1,0 +1,25 @@
+#contact {
+    margin-bottom: 80px;
+    .contact-hero {
+        background: url('https://www.wired.com/wp-content/uploads/2016/11/GoogleMap-1-1200x630-e1479510841629.jpg')center center;
+        background-size:cover;
+        height: 350px;
+    }
+    .contact-form {
+        .input, .textarea {
+            margin-bottom: 20px;
+            &::placeholder {
+                color: darkgray;
+            }
+        }
+
+        .button {
+            height: 35px;
+            width: 130px;
+            background-color: $primary;
+            color: whitesmoke;
+            font-weight: bold;
+            font-size: 12px;
+        }
+    }
+}
